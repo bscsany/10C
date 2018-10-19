@@ -66,7 +66,7 @@ for(var i = 0;i<keresztNevFiu.length;i++){
 for(var i = 0;i<keresztNevLany.length;i++){
     nevekO.innerHTML+=keresztNevLany[i] + ", ";
  }
-    
+ nevekO.innerHTML+="<br>";
     for(var i = 0;i<5;i++){
         var nev="";
         nev=vezetekNev[vel(0,vezetekNev.length-1)];
